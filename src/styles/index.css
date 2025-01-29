@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+.section-paddings {
+  @apply mx-auto max-w-[1440px] px-[30px] py-[70px] md:px-[50px] lg:px-[70px] xl:px-[90px] xl:py-[90px];
+}
+
 .button {
   @apply inline-flex w-full items-center justify-center gap-x-2 rounded-[10px] border border-transparent px-5 py-2 font-medium transition-colors disabled:pointer-events-none disabled:opacity-50 sm:w-auto;
 }
