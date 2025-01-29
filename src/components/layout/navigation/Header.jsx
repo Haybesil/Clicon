@@ -4,7 +4,7 @@ import { ButtonSolid } from '../../common/base/buttons/Button'
 export default function Header() {
   return (
     <div>
-      <ButtonSolid text='Header'></ButtonSolid>
+      <ButtonSolid text='Nav header'></ButtonSolid>
     </div>
   )
 }
